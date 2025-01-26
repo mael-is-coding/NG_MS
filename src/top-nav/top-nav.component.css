@@ -1,0 +1,26 @@
+
+nav {
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1E1E1E;
+}
+
+nav>a {
+    padding: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+nav>a:hover {
+    transition-duration: 0.4s;
+    color: #9246F4;
+}
+
+nav>a:hover::before {
+    transition-duration: ease-in 0.4s;
+    content: "> ";
+}

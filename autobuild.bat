@@ -1,0 +1,1 @@
+ng build --output-path docs --configuration production --base-href NG_MS && move %CD%/docs/browser/* %CD%/docs/ && del %CD%/browser/*

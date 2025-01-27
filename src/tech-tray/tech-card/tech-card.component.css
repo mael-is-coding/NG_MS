@@ -1,4 +1,38 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border: solid 1px #9246F4;
+    gap: 20px;
+    width: 25vw;
+    min-width: 300px;
+    height: 100px; 
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px rgb(20, 20, 20);
+    margin: 10px;
+}
 
-.vertical-line {
-    border-left: solid 1.2px black;
+@keyframes rainbow-border {
+    0% {border-color: red;}
+    12.5% {border-color: red;}
+    25% {border-color: yellow;}
+    37.5% {border-color: green;}
+    50% {border-color: blue;}
+    62.5% {border-color: indigo;}
+    75% {border-color: rgb(108, 39, 158);} 
+    100%{border-color: #9246F4;}
+}
+
+.card:hover {
+    box-shadow: 3px 3px 5px rgb(20, 20, 20) !important;
+    transition-duration: 0.4s;
+    transform: scaleX(1.05) scaleY(1.05);
+    animation-name: rainbow-border;
+    animation-duration: 1s;
+    border-width: 2px !important;
+}
+
+.card:hover .vertical-line {
+    animation-name: rainbow-border;
+    animation-duration: 1s;
 }

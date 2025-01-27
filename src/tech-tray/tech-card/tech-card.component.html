@@ -1,6 +1,12 @@
 <div class = "card">
-    <span>{{ name }}</span>
-    <img src = "{{link}}" alt = "{{ desc }}">
-
+    @if (link != "") {
+    <img src = "{{link}}" alt = "{{ desc }}" width = "100px" height = "100px">
+    }
+    
     <div class = "vertical-line"></div>
+
+    <div>
+        <span><b>{{ name }}</b></span><br>
+        <span>{{ desc }}</span>
+    </div>
 </div>

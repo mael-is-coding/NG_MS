@@ -6,3 +6,40 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
+@keyframes rainbow-text {
+    0% {color: red;}
+    12.5% {color: red;}
+    25% {color: yellow;}
+    37.5% {color: green;}
+    50% {color: blue;}
+    62.5% {color: indigo;}
+    75% {color: rgb(108, 39, 158);} 
+    100%{color: #9246F4;}
+}
+
+* {
+    font-family: "Roboto";
+}
+
+.hero {
+    font-size: 25vh;
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.vertical-line {
+    border-left: solid 1.2px #9246F4;
+}
+
+.mdParagraph {
+    border-left: solid 1.2px #9246F4;
+    border-width: 4px;
+    margin-left: 30px;
+    padding-left: 10px;
+}
+
+.purple {
+    color: #9246F4;
+}
+

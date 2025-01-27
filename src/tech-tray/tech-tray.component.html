@@ -1,6 +1,6 @@
 
-<div>
+<div class = "tray">
     @for (skill of skills; track skill.name)  {
-        <app-tech-card></app-tech-card>
+        <app-tech-card name = "{{skill.name}}" desc = "{{skill.desc}}" link={{skill.iconLink}}></app-tech-card>
     }
 </div>

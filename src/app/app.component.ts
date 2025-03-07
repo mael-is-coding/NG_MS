@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { TopNavComponent } from "../top-nav/top-nav.component";
-import { TechTrayComponent } from "../tech-tray/tech-tray.component";
 
 @Component({
   selector: 'app-root',

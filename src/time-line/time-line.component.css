@@ -1,0 +1,31 @@
+
+.timeline {
+    height: 100vh;
+}
+
+.timeline-cursor {
+    /* position: absolute; */
+    margin-left: 2vh;
+    margin-top: 2vh;
+
+    width: 5vh;
+    height: 5vh;
+    border-radius: 50%;
+    border-color: #9246F4;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #2d2d2d;
+    display: inline-block;
+    cursor: pointer;
+
+}
+
+.line {
+    position: relative;
+    width: 90vh;
+    height: 2vh;
+    background-color: #1E1E1E;
+    border-radius: 15px;
+    border: solid 1px #9246F4;
+}
+

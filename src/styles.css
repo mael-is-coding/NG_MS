@@ -22,11 +22,6 @@ body {
     font-family: "Roboto";
 }
 
-.hero {
-    font-size: 25vh;
-    text-align: center;
-    margin-top: 20vh;
-}
 
 .vertical-line {
     border-left: solid 1.2px #9246F4;

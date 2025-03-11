@@ -4,7 +4,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     background-color: #1E1E1E;
-    margin-bottom: 20vh;
+    margin-bottom: 5vh;
 }
 
 nav>a {

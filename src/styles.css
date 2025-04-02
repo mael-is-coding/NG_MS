@@ -1,7 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 
+
+:root {
+  --accent-color : #9246F4; /* hovers, etc */
+  --secondary-color :#2d2d2d; /* body bg...*/
+  --ternary-color : #1E1E1E; /* nav */
+}
+
+
+
 body {
-    background-color: #2d2d2d;
+    background-color: var(--secondary-color);
     color: white;
     margin: 0px;
     padding: 0px;
@@ -24,11 +33,11 @@ body {
 
 
 .vertical-line {
-    border-left: solid 1.2px #9246F4;
+    border-left: solid 1.2px var(--accent-color);
 }
 
 .mdParagraph {
-    border-left: solid 1.2px #9246F4;
+    border-left: solid 1.2px var(--accent-color);
     border-width: 4px;
     margin-left: 30px;
     padding-left: 10px;

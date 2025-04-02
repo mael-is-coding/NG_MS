@@ -8,5 +8,5 @@ import { TechTrayComponent } from "../tech-tray/tech-tray.component";
   styleUrl: './skills.component.css'
 })
 export class SkillsComponent {
-
+  
 }

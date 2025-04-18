@@ -1,0 +1,12 @@
+
+<div class="project-box" (click)="goToProject(project)">
+
+  <h2>{{ (project != null) ? project!!.title : "pas de titre" }}</h2>
+  <span class="techs">
+    @for (tech of (project != null) ? project.techs : "pas de technologies"; track project!!.id) {
+      <span class = "indiv-tech">{{ tech }}</span>
+    }
+  </span>
+  <p>{{ (project != null) ? project.details : "pas de détails"}}</p>
+
+</div>

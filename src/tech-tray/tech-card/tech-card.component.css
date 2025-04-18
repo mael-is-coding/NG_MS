@@ -12,16 +12,6 @@
     margin: 10px;
 }
 
-@keyframes rainbow-border {
-    0% {border-color: red;}
-    12.5% {border-color: red;}
-    25% {border-color: yellow;}
-    37.5% {border-color: green;}
-    50% {border-color: blue;}
-    62.5% {border-color: indigo;}
-    75% {border-color: rgb(108, 39, 158);}
-    100%{border-color: #9246F4;}
-}
 
 .card:hover {
     box-shadow: 3px 3px 5px rgb(20, 20, 20) !important;

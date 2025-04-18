@@ -1,0 +1,11 @@
+
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 12vh;
+}
+
+.wrapper>router-outlet {
+  border: solid 1px var(--accent-color);
+}

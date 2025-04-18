@@ -1,0 +1,19 @@
+
+<span class = "wrapper">
+  <h1>{{ project?.title }}</h1>
+
+  <span class = "mdParagraph">
+    <span>{{ project?.details }}</span>
+  </span>
+
+  <span>
+    {{ project?.content }}
+  </span>
+
+  <div>
+    <h2>La <span class = "purple">Gallerie</span></h2>
+
+    @for(image of project?.images; track image) {
+      <img [src]="image" width="600px" height="300px">
+    }
+  </div>

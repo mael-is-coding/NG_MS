@@ -4,13 +4,13 @@ import { ProjectStore }  from "../../../logics/injectables/stores/project-store"
 import  { Observer } from "../../../logics/contracts/Observers/Observer"
 
 @Component({
-  selector: 'app-one-project-page',
+  selector: 'app-project-detail-component',
   imports: [],
-  templateUrl: './one-project-page.component.html',
-  styleUrl: './one-project-page.component.css'
+  templateUrl: './project-detail-component.component.html',
+  styleUrl: './project-detail-component.component.css'
 })
 
-export class OneProjectPageComponent implements Observer {
+export class ProjectDetailComponent implements Observer {
   @Input() project: Project | null = null;
   projectStore: ProjectStore | null = null
 

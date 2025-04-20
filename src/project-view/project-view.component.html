@@ -3,13 +3,13 @@
     <h1>
       Mes projets <span class = "purple">scolaires</span>
     </h1>
-    
+
     <span class = "mdParagraph">
        Voici les projets que j'ai pu effectuer en BUT Informatique
     </span>
-    
+
     @for(project of projects; track project.id) {
-      <app-one-project [title]="project.title" [project]="project"></app-one-project>
+      <app-project-card [title]="project.title" [project]="project"></app-project-card>
     }
   </div>
   <router-outlet></router-outlet>
